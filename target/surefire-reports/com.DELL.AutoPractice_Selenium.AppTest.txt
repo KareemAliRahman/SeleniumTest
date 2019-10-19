@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: com.DELL.AutoPractice_Selenium.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 193.432 sec <<< FAILURE!
-addtoCartAndConfirmOrderAndCheckHistory(com.DELL.AutoPractice_Selenium.AppTest)  Time elapsed: 13.683 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 57.34 sec <<< FAILURE!
+addtoCartAndConfirmOrderAndCheckHistory(com.DELL.AutoPractice_Selenium.AppTest)  Time elapsed: 28.325 sec  <<< FAILURE!
 org.openqa.selenium.StaleElementReferenceException: The element reference of <li class="step_current  first"> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'kareem-pc', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.19.69-1-MANJARO', java.version: '1.8.0_222'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190902000000, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8432, moz:profile: /tmp/rust_mozprofile7gn9K5, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.69-1-MANJARO, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d0b556d3-7b71-4cd8-9960-bc5a64620e9a
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 69.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190902000000, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 9720, moz:profile: /tmp/rust_mozprofile7EDJm6, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.19.69-1-MANJARO, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fb088b76-39e7-481b-87f5-528d2be27519
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
