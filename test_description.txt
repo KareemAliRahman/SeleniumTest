@@ -1,0 +1,19 @@
+ tools used: 
+
+ 	a- Java, maven, testng.
+	b- also page object model design pattern is used to create page objects for nearly all pages used in the scenarios (found under src/main/java/com/AutoPractice_selenium/PageObjects/*).
+
+--------------------------------------------------------------------------------------------------------------
+AutoPractice_Test contain all 5 TestCases, Which are as follows:
+
+	1- SignUp with invalid registration data (invalid postal code). asserts that an error message shown by the web app showing me the invalid data.
+	2- SignUp with valid data.
+	3- SignIn and SignOut
+	4- SignIn and check Order History with no previous orders. (Order History should be empty)
+	5- SignIn, choose Blouses, choose a blouse, follow the order form until bank option and then check Order History to make sure the order has been added.
+--------------------------------------------------------------------------------------------------------------
+Notes:
+
+	1- Webdriver is found under lib. replace with you browser specific driver. (Only firefox driver)
+	2- chrome or firefox Webdriver can be choosen from BaseTest parent Test class.
+	3- to execute all tests after choosing webdriver exec: "mvn txt"
